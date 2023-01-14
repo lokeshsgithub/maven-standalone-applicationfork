@@ -51,6 +51,21 @@
 		<system>GitHub</system>
 		<url>https://github.com/MithunTechnologiesDevOps/maven-standalone-application/issues</url>
 	</issueManagement>
+         <distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Releases Nexus Repository</name>
+	      <url>http://172.31.2.34:1999/lokeshreddy/repository/citibank-release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <url>http://172.31.2.34:1999/lokeshreddy/repository/citibank-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 
 	-->
 	<build>
