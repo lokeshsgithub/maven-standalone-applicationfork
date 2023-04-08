@@ -18,8 +18,8 @@
 	<description>Maven Standalone Application</description>
 
 	<properties>
-		<sonar.host.url>http://172.31.8.105:9182/lokeshreddy/</sonar.host.url>
-		<sonar.login>squ_2a468d0a6906c12ff27eec6981a3a6175945364a</sonar.login>
+		<sonar.host.url>http://ec2-65-2-161-133.ap-south-1.compute.amazonaws.com:9182/lokeshreddy</sonar.host.url>
+		<sonar.login>squ_0733bd54df2cdc15d6b76c78ddb2246d4d9c764a</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>11</maven.compiler.source>
                 <maven.compiler.target>11</maven.compiler.target>
@@ -40,13 +40,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://172.31.13.39:1999/lokeshreddy/repository/citibank-release/</url>
+	      <url>http://13.233.172.150:1999/lokeshreddy/repository/icicibank_release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://172.31.13.39:1999/lokeshreddy/repository/citibank-snapshot/</url>
+	      <url>http://13.233.172.150:1999/lokeshreddy/repository/icicibank_snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
