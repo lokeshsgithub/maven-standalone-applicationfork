@@ -1,3 +1,3 @@
 FROM openjdk:10.0.1-10-jre
-COPY target/*.jar /usr/src/
-CMD ["java","-jar","target/.jar" ]
+COPY target/maven-stanalone-application-0.0.1-SNAPSHOT.jar ./
+CMD ["java","-jar","maven-stanalone-application-0.0.1-SNAPSHOT.jar" ]
